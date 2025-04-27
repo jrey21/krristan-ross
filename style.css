@@ -299,6 +299,7 @@ footer {
 
 .social-media {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
 }
@@ -325,10 +326,12 @@ footer {
 }
 
 .social-figure {
+    flex: 1 1 100px;
     text-align: center;
 }
 
 .social-image {
-    width: 150px;
-    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    max-width: 100px;
 }
